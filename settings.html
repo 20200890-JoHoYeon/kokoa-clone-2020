@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>settings - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service </span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>11%</span>
+          <i class="fas fa-battery-quarter fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="javascript:history.back();">
+            <i class="fas fa-angle-left fa-3x"></i
+          ></a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+          <span><i class="fas fa-search fa-2x"></i></span>
+        </div>
+      </header>
+    </div>
+
+    <main class="main-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kokoa Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting settings__setting-border-none">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
+      <ul class="settings-list settings__setting-border-none">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-unlock-alt"></i>
+            <span>Privacy</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-bell"></i>
+            <span>Notifications</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting settings__setting-border-none">
+          <div class="settings__setting-column">
+            <i class="far fa-user"></i>
+            <span>Friends</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting settings__setting-border-none">
+          <div class="settings__setting-column">
+            <i class="far fa-comment"></i>
+            <span>Chats</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting settings__setting-border-none">
+          <div class="settings__setting-column">
+            <i class="far fa-lightbulb"></i>
+            <span>Display</span>
+            <span class="badge badge-settings">N</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting settings__setting-border-none">
+          <div class="settings__setting-column">
+            <i class="fas fa-brush"></i>
+            <span>Themes</span>
+            <span class="badge badge-settings">N</span>
+          </div>
+
+          <div class="settings__setting-column">Default theme</div>
+        </li>
+        <li class="settings__setting settings__setting-border-none">
+          <div class="settings__setting-column">
+            <i class="fas fa-phone-alt"></i>
+            <span>Call</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+      </ul>
+    </main>
+
+    <!-- nav>ul>li*4>a -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">9</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div>warning!!</div>
+      <span>Your screen is too big.</span>
+      <span>
+        If you connect again from mobile,<br />
+        the error will be resolved.
+      </span>
+      <span>Thank you for connecting. <br />Have a great time.</span>
+      <span><br />Copyright ⓒ 2021. JoHoYeon1129. All rights reserved.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 내 코드 -->
+    <!-- <script src="https://kit.fontawesome.com/90fbf27de1.js" crossorigin="anonymous"></script> -->
+  </body>
+</html>

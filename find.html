@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service </span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>11%</span>
+          <i class="fas fa-battery-quarter fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+          <span class="screen-header__icons-margin"
+            ><i class="fas fa-search fa-lg"></i
+          ></span>
+          <span class="nav__link">
+            <span class="nav__dot nav__dot-cog"></span>
+            <span
+              ><a href="settings.html"><i class="fas fa-cog fa-lg"></a></i
+            ></span>
+          </span>
+        </div>
+      </header>
+    </div>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint fa-2x"></i>
+          <span>Add by Id</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope fa-2x"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h4 class="recommended-friends__title">Recommended Friends</h4>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go To Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#DOMINO</h5>
+            <h6 class="open-post__hashtags">#domino#idiots#friends</h6>
+            <div class="open-post__members">
+              <img src="screenshots/11.jpg"/>
+              <span class="open-post__member-count">004 members</span>
+              <div class="divder"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="screenshots/10.jpg">
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>405</span>
+              </div>
+            </div>
+          </div>  
+      </div>
+      <div class="open-post">
+        <div class="open-post__column">
+          <h5 class="open-post__title">#HONGDAE</h5>
+          <h6 class="open-post__hashtags">#four#cuts#of#life</h6>
+          <div class="open-post__members">
+            <img src="screenshots/13.jpg"/>
+            <span class="open-post__member-count">004 members</span>
+            <div class="divder"></div>
+            <span class="open-post__member-status">Active</span>
+          </div>
+        </div>
+        <div class="open-post__column">
+          <div class="open-post__photo">
+            <img src="screenshots/21.jpg">
+            <div class="open-post__heart-count">
+              <i class="fas fa-heart fa-xs"></i>
+              <span>301</span>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    </main>
+
+    <!-- nav>ul>li*4>a -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">9</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div>warning!!</div>
+      <span>Your screen is too big.</span>
+      <span>
+        If you connect again from mobile,<br />
+        the error will be resolved.
+      </span>
+      <span>Thank you for connecting. <br />Have a great time.</span>
+      <span><br />Copyright ⓒ 2021. JoHoYeon1129. All rights reserved.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 내 코드 -->
+    <!-- <script src="https://kit.fontawesome.com/90fbf27de1.js" crossorigin="anonymous"></script> -->
+  </body>
+</html>
