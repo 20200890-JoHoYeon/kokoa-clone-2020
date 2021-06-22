@@ -2,4 +2,4 @@
 
 HTML & CSS are so much fun
 
-<img width="80%" src="https://user-images.githubusercontent.com/16822641/109461495-913fc480-7aa5-11eb-9d0e-aff762669f98.gif"/>
+<img width="80%" src="https://user-images.githubusercontent.com/70556072/122948775-20a31780-d3b6-11eb-8eba-d0fb40b58773.gif"/>
