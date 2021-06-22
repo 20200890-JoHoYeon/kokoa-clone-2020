@@ -2,6 +2,6 @@
 
 HTML & CSS are so much fun
 
-<img width="width="80%"" src="https://user-images.githubusercontent.com/70556072/122948444-e0dc3000-d3b5-11eb-9f8e-891f6ea4f0f2.gif"/>
+<img width="width="80%" src="https://github.com/20200890-JoHoYeon/kokoa-clone-2020/issues/1#issue-927332548"/>
 
 
